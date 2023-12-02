@@ -8,10 +8,16 @@ const CounterDisplay = ({
   sayacAzalt,
   sifirla,
   yuzVerdim,
+  fiyat
 }) => {
+
+
+
+
   return (
-    <Container title={"Counter " + name}>
-      <h4>Sayaç: {counter}</h4>
+    <Container title={"Yumurta Sepeti " + name}>
+      <h4>Adet: {counter}</h4>
+      <h4>Fiyat: {fiyat}</h4>
       <Button btnClick={sayacArttir}>
         <i className="fa-solid fa-plus" />
         Arttır
