@@ -37,13 +37,12 @@
 
 .product-list {
   display: flex;
-  flex-wrap: flex-wrap;
+  flex-wrap: wrap;
 }
 
 .product-list > div {
-  width: 20rem;
+  width: 18rem;
   padding: 1rem;
-  margin: 1rem;
   border: 10px solid #ccc;
   border-radius: 0.5rem;
 }

@@ -16,8 +16,8 @@ const ProductsPage = ({ productList }) => {
         />
       </div>
 
-      <div className="product-list">
-        {productList
+      <div className="product-list gap-2">
+        {productList 
           ?.filter((product) => product.name.includes(filterText))
           ?.map((product) => (
             <ProductCard product={product} />
